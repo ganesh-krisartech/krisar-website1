@@ -6,7 +6,7 @@ description : "Krisar Infotech delivers world-class consulting, staffing, and tr
 cta :   "Start your journey to innovation today!"
 theme : 'tailbliss'
 
-baseURL: ''
+baseURL: 'https://player1g.github.io/krisar-website1/'
 #title: TailBliss
 languageCode: en-us
 DefaultContentLanguage: en

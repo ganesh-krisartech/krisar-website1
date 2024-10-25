@@ -1,0 +1,248 @@
+#baseURL : 'https://example.org/'
+#languageCode : 'en-us'
+title : "Empower Your Business with Cutting-Edge Tech Solutions"
+description : "Krisar Infotech delivers world-class consulting, staffing, and training services tailored to drive your business to success. Unlock the full potential of technology and stay ahead in a rapidly evolving digital landscape."
+#background_image: "/images/landing-bg.jpg"
+cta :   "Start your journey to innovation today!"
+theme : 'tailbliss'
+
+baseURL: ''
+#title: TailBliss
+languageCode: en-us
+DefaultContentLanguage: en
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+canonifyURLs: true
+paginate: 9
+darkmode_js:
+  - assets/js/darkmode.js
+enableInlineShortcodes: true
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+params:
+  author: Nusser Studios
+  authorimage: ../assets/images/global/author.webp
+  og_image: /images/tailbliss-cover.png
+  moto: "Welcome to KRISAR InfoTech"
+  description: ""
+  disable_theme_toggle: false
+  disable_stay_uptodate: false
+
+  p1:
+    heading: "Consulting"
+    image: "images/pages/1.png"
+    content:
+#      - text: "At Krisar Infotech, our mission is to empower businesses through innovative consulting, comprehensive training, and exceptional staffing support tailored to meet the unique challenges of our clients. As a startup founded by an industry expert, we are committed to delivering high-quality services that drive efficiency and foster growth."
+      - text: "At Krisar Infotech, we offer tailored tech consulting services designed to help businesses optimize their operations and boost sales. Our expert solutions empower firms to stay ahead in a competitive market and achieve sustainable growth."
+#      - text: " With a focus on continuous improvement and adaptation, Krisar Infotech strives to stay at the forefront of industry trends and innovations, ensuring our clients achieve sustainable success."
+    button: "Read More"
+
+  p2:
+    heading: "Training"
+    image: "images/pages/10.png"
+    content:
+#    button: "Notify me"
+      - text: "At Krisar Infotech, we deliver corporate training programs that enhance workforce skills and efficiency. We also partner with companies to provide specialized training for their freshers, ensuring a smooth transition into their roles."
+    button: "Read More"
+
+
+#  p4:
+#    heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+#    image: "images/pages/three.png"
+#    content:
+#      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus non enim commodo tincidunt vel in nulla. Aenean pretium dolor non ultricies bibendum. Etiam quis blandit enim. Nunc condimentum ut lorem in faucibus. Phasellus varius ligula et commodo tristique. Nunc sodales nisl nec laoreet vehicula. Donec velit nibh, sollicitudin at nulla a, egestas dignissim eros. Sed lacinia hendrerit interdum. Vestibulum pellentesque sem venenatis nisl tempor accumsan sit amet tempus felis. Mauris leo diam, porttitor nec bibendum id, tempus ac nulla. Etiam congue ornare erat at convallis. Donec in nisi dapibus, mattis risus vel, imperdiet enim. Donec fermentum sit amet tortor nec tincidunt. Nam nec lectus tortor. Nunc sit amet laoreet orci, porta ornare massa. Phasellus eget lorem mi. Nam eleifend ultricies sapien, quis mollis leo bibendum at. Quisque viverra lorem sit amet magna aliquet, et dignissim arcu eleifend."
+
+  p3:
+    heading: "Staff and Support"
+    content:
+      - text: "At Krisar Infotech, we provide both temporary and permanent staffing solutions to fit your company’s unique needs. Whether you're looking for short-term support or long-term talent, we’ve got you covered. Our goal is to ensure you have the right people in place to help your business thrive."
+    image: "images/pages/3.png"
+    button: "Read More"
+#    links:
+#      - text: Meet our investors and advisors
+#        url: "#"
+#    logos:
+#      - identifier: a
+#        image: "images/global/sample-logo.svg"
+#        alt: "a"
+#      - identifier: b
+#      - identifier: c
+#      - identifier: d
+#      - identifier: e
+#      - identifier: f
+  p5:
+    heading: "Our Services"
+    content:
+      - text: "At Krisar Infotech, we provide expert consulting services, customized training programs, and dependable staffing support to help your business grow and succeed. Our goal is to equip you with the right skills, talent, and strategies to drive your success forward."
+    action: "#"
+    label: "Email address"
+    placeholder: "Enter your email"
+    button: "Notify me"
+
+  social_media:
+    github:
+      enabled: true
+      url: 'https://github.com/'
+    facebook:
+      enabled: true
+      url: 'https://facebook.com/'
+    instagram:
+      enabled: true
+      url: 'https://instagram.com/'
+    twitter:
+      enabled: true
+      url: 'https://twitter.com/'
+
+
+menu:
+  main:
+    - identifier: Home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: about
+      name: About Us
+      url: /about/
+      weight: 20
+    - identifier: categories
+      pre: dropdown
+      name: Services
+      weight: 30
+    - identifier: dropdown
+#      pre: dropdown
+      name: Careers
+      weight: 40
+      url: /careers/
+    - identifier: contact
+      name: Contact Us
+      url: /contact/
+      weight: 50
+  categories:
+    - identifier: consulting
+      name: Consulting
+      url: /consulting/
+      weight: 10
+    - identifier: training
+      name: Training
+      url: /training/
+      weight: 20
+    - identifier: staff
+      name: Staff and Support
+      url: /staff/
+      weight: 30
+  dropdown:
+    - identifier: appearance
+      pre: stars # can be stars, comments or piechart
+      name: Explore Careers at KRISAR
+      post: "Easy customization"
+      url: /
+      weight: 10
+    - identifier: comments
+      pre: comments # can be stars, comments or piechart
+      name: Check for Available Positions
+      post: "Check your latest comments"
+      url: /
+      weight: 20
+    - identifier: analytics
+      pre: piechart # can be stars, comments or piechart
+      name: Applications
+      post: "Take a look at your statistics"
+      url: /
+      weight: 30
+  footer:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: news
+      name: News
+      url: /categories/news/
+      weight: 30
+    - identifier: policy
+      name: Privacy Policy
+      url: /prose/
+      weight: 40
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: Categories
+  tag: Tags
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.114.0"
+
+
+asset:
+  postCSS: "assets/css/style.css"
+

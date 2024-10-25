@@ -1,10 +1,10 @@
 ---
-title: "Job Title 1"
+title: "Data Engineer"
 date: 2022-06-18T11:10:36+08:00
 draft: false
 language: en
 #featured_image: ../assets/images/featured/featured-img-placeholder.png
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.
+summary: A Data Engineer at Krisar Infotech is responsible for designing, building, and maintaining robust data pipelines that ensure seamless data collection, transformation, and storage to support analytics and machine learning projects. They collaborate with data scientists and stakeholders to deliver optimized, secure, and scalable data solutions, playing a critical role in enabling data-driven decision-making across the organization.
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero. Vestibulum vel convallis felis. Ut finibus lorem vestibulum lobortis rhoncus.
 #author: TailBliss
 #authorimage: ../assets/images/global/author.webp
@@ -12,106 +12,41 @@ categories: Career
 tags: Job Post
 weight: 1
 ---
-__Advertisement :smile:__
 
-## Images
+- # Job Title: Data Engineer
+- # Location: [Specify Location or Remote]
+- # Employment Type: Full-time
 
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+## Job Description:
+As a Data Engineer at Krisar Infotech, you will be responsible for 
+__building, maintaining, and optimizing data pipelines__ 
+to ensure efficient data processing and storage for our clients. You’ll __work closely with data scientists, analysts, and stakeholders__ to design scalable data solutions that support analytics and machine learning initiatives. This role __requires strong technical skills in data management, ETL (Extract, Transform, Load) processes, and big data technologies.__
 
-Like links, Images also have a footnote style syntax
+## Key Responsibilities:
+- Design and build data pipelines to collect, clean, and process data from diverse sources.
+- Optimize and improve existing data architecture and database performance.
+- Ensure data integrity, availability, and security across platforms.
+- Write clean, maintainable code to automate data processing tasks.
 
-![Alt text][id]
+## Required Skills & Qualifications:
+- Bachelor’s degree in Computer Science, Engineering, or a related field.
 
-With a reference later in the document defining the URL location:
+- Strong knowledge of SQL, Python, and/or Java.
+- Hands-on experience with data pipeline and workflow management tools (e.g., Apache Airflow, AWS Data Pipeline).
+- Familiarity with cloud services (AWS, GCP, or Azure) and big data technologies (Hadoop, Spark).
+- Excellent analytical and problem-solving skills, with attention to detail.
+## Preferred Qualifications:
+- Experience with data warehousing solutions (e.g., Snowflake, Redshift).
+- Knowledge of machine learning model deployment.
+- Proficiency in data governance and security best practices.
 
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- X^2^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
-
+<div style="text-align: center; margin: 20px 0;">
+    <a href="mailto:help@krisar.tech?subject=Job Application for Data Engineer Role">
+        <button style="background-color: #007BFF; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px; 
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); transition: background-color 0.3s, box-shadow 0.3s;" 
+                onmouseover="this.style.backgroundColor='#000'; this.style.boxShadow='2px 2px 10px rgba(0, 0, 0, 0.5)';" 
+                onmouseout="this.style.backgroundColor='#007BFF'; this.style.boxShadow='2px 2px 5px rgba(0, 0, 0, 0.3)';">
+            Click Me To Apply
+        </button>
+    </a>
+</div>

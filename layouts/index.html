@@ -15,7 +15,9 @@
                     </p>
                 </div>
                 <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/main_page.png" }}
+<!--                    <img src="/images/pages/main_page.png" alt="TailBliss Hero" width="100%" class="w-full max-w-xl mx-auto rounded-lg" />-->
+
+                    {{ $hero := resources.GetMatch "images/pages/4.png" }}
 
                     {{ $thumb := ($hero.Fill "400x400 webp q90") }}
                     {{ $large := ($hero.Fill "576x576 webp q90") }}
@@ -55,6 +57,7 @@
                 </div>
         </div>
     </div>
+
     <!-- Consulting section -->
     <div class="relative my-4">
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
@@ -95,11 +98,12 @@
                         </div>
                     </div>
                     <div class="mt-4 sm:mt-0 sm:ml-3">
+                        <a href='{{ absURL "consulting"}}'>
                         <button type="button"
-                                onclick="window.location.href='/consulting/'"
                                 class="w-auto px-3 py-2 text-sm font-medium text-gray-700 bg-gray-300 border border-transparent rounded-full shadow hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-gray-300 sm:w-auto">
                             {{ .Site.Params.P1.Button }}
                         </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -118,15 +122,17 @@
                         {{ range .Site.Params.P2.Content }}
                         <p class="pb-12 mt-6 text-lg text-gray-900 dark:text-white">
                             {{ .text }}
+                            <br><br><br><br><br><br><br><br><br>
                         </p>
                         {{ end }}
                         <div class="mt-4 sm:mt-0 sm:ml-3">
+                            <a href='{{ absURL "training"}}'>
                             <button type="button"
                                     onclick="window.location.href='/training/'"
                                     class="w-auto px-3 py-2 text-sm font-medium text-gray-700 bg-gray-300 border border-transparent rounded-full shadow hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-gray-300 sm:w-auto">
                                 {{ .Site.Params.P2.Button }}
                             </button>
-                            <br><br><br><br><br><br><br><br><br>
+                            </a>
                         </div>
                         </p>
                     </div>
@@ -200,11 +206,13 @@
                         </div>
                     </div>
                     <div class="mt-4 sm:mt-0 sm:ml-3">
+                        <a href='{{ absURL "staff"}}'>
                         <button type="button"
                                 onclick="window.location.href='/staff/'"
                                 class="w-auto px-3 py-2 text-sm font-medium text-gray-700 bg-gray-300 border border-transparent rounded-full shadow hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-gray-300 sm:w-auto">
                             {{ .Site.Params.P3.Button }}
                         </button>
+                        </a>
                     </div>
                 </div>
             </div>

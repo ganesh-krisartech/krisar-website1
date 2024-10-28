@@ -13,7 +13,7 @@ DefaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
-canonifyURLs: true
+canonifyURLs: false
 paginate: 9
 darkmode_js:
   - assets/js/darkmode.js
@@ -123,9 +123,12 @@ params:
     instagram:
       enabled: true
       url: 'https://instagram.com/'
-    twitter:
+#    twitter:
+#      enabled: true
+#      url: 'https://twitter.com/'
+    linkedin:
       enabled: true
-      url: 'https://twitter.com/'
+      url: 'https://www.linkedin.com/company/krisar-infotech/posts/?feedView=all'
 
 
 menu:
@@ -192,9 +195,9 @@ menu:
       name: About
       url: /about/
       weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
+#    - identifier: news
+#      name: News
+#      url: /categories/news/
       weight: 30
     - identifier: policy
       name: Privacy Policy

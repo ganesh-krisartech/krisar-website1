@@ -9,7 +9,7 @@ Krisar’s staffing support solutions are designed to meet the dynamic needs of 
 
 By offering a flexible range of staffing options, Krisar helps businesses maintain productivity and efficiency, even during periods of change or growth. The company’s rigorous selection process ensures that both temporary and permanent placements bring value and expertise to the organization. From covering immediate staffing needs to sourcing key permanent hires, Krisar’s staffing support is committed to helping clients build strong, capable teams that align with their goals and objectives.
 
-![g](https://raw.githubusercontent.com/player1g/krisar-website1/refs/heads/master/assets/images/featured/14.png)
+![g](https://raw.githubusercontent.com/player1g/krisar-website1/refs/heads/master/static/images/featured/staff.png)
 
 
 <div style="text-align: center; margin: 20px 0;">

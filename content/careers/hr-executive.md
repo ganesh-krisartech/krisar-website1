@@ -8,14 +8,16 @@ summary: An HR Executive at Krisar Infotech manages recruitment, employee relati
 description: 
 #author: TailBliss
 #authorimage: ../assets/images/global/author.webp
-categories: Career
-tags: Job Post
+#categories: Career
+tags: [Job-Post, Strong Communication, Collaboration Skills] 
 weight: 2
 ---
 
-# Job Title: HR Executive
-# Location: [Specify Location or Remote]
+<div class="text-center">
+
+# Location: Hyderabad
 # Employment Type: Full-time
+</div>
 
 ## Job Description:
 As an HR Executive at Krisar Infotech, you will play a key role in __managing and enhancing__ the company’s talent processes, employee engagement, and compliance. This position __involves overseeing the recruitment lifecycle, onboarding, employee relations, and general HR support__ to ensure that our teams operate smoothly and our company culture thrives. The ideal candidate __will bring a proactive approach__ to fostering a positive work environment and __contribute to initiatives that enhance employee satisfaction and productivity__.

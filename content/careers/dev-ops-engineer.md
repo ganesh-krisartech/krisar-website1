@@ -8,14 +8,18 @@ summary: A DevOps Engineer at Krisar Infotech bridges development and operations
 description: 
 #author: TailBliss
 #authorimage: ../assets/images/global/author.webp
-categories: Career
-tags: Job Post
+#categories: Career
+tags: [Job Post, Control-m, SQL, Python]
 weight: 3
 ---
 
-# Job Title: DevOps Engineer
-# Location: [Specify Location or Remote]
+
+<div class="text-center">
+
+# Location: Hyderabad
 # Employment Type: Full-time
+
+</div>
 
 ## Job Description:
 As a DevOps Engineer at __Krisar Infotech__, you will be __responsible for streamlining our software development and deployment processes__ through automation and continuous integration/continuous deployment (CI/CD) practices. Your role will __involve collaborating with development, operations, and quality assurance teams__ to enhance system reliability, improve software performance, and ensure efficient resource utilization across cloud platforms. The ideal candidate __will bring expertise in DevOps tools and methodologies__, along with a passion for problem-solving and innovation.

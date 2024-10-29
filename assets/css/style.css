@@ -4870,3 +4870,17 @@ EmojiSymbols;
     line-height: 1.75rem;
   }
 }
+
+.filter-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tag-button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.tag-button:hover {
+  background-color: #3182ce;
+}
+

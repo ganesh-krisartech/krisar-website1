@@ -8,14 +8,19 @@ summary: A Data Engineer at Krisar Infotech is responsible for designing, buildi
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero. Vestibulum vel convallis felis. Ut finibus lorem vestibulum lobortis rhoncus.
 #author: TailBliss
 #authorimage: ../assets/images/global/author.webp
-categories: Career
-tags: Job Post
+#categories: Career
+tags: [Job Post, SQL, Python, Scala]
 weight: 1
 ---
 
-- # Job Title: Data Engineer
-- # Location: [Specify Location or Remote]
-- # Employment Type: Full-time
+<div class="text-center">
+
+# Location: Hyderabad
+# Employment Type: Full-time
+
+</div>
+
+<div class="no-padding">
 
 ## Job Description:
 As a Data Engineer at Krisar Infotech, you will be responsible for 
@@ -39,6 +44,8 @@ to ensure efficient data processing and storage for our clients. You’ll __work
 - Experience with data warehousing solutions (e.g., Snowflake, Redshift).
 - Knowledge of machine learning model deployment.
 - Proficiency in data governance and security best practices.
+
+</div>
 
 <div style="text-align: center; margin: 20px 0;">
     <a href="mailto:help@krisar.tech?subject=Job Application for Data Engineer Role">
